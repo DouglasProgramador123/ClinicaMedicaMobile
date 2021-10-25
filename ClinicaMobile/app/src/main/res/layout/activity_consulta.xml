@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="0">
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Data da Consulta" />
+
+    <Spinner
+        android:id="@+id/spDataMarcada"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tipo de Consulta" />
+
+    <Spinner
+        android:id="@+id/spConsultaTipo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/btnSalvar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:insetLeft="10dp"
+            android:insetRight="5dp"
+            android:onClick="marcarConsulta"
+            android:text="SALVAR" />
+
+        <Button
+            android:id="@+id/btnExcluir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:insetLeft="10dp"
+            android:insetRight="5dp"
+            android:onClick="cancelarConsulta"
+            android:text="EXCLUIR" />
+
+        <Button
+            android:id="@+id/btnSairConsulta"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:insetLeft="10dp"
+            android:insetRight="5dp"
+            android:onClick="sairConsulta"
+            android:text="Sair" />
+
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listViewContatos"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ListView>
+
+</LinearLayout>
