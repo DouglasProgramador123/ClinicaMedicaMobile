@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Maca_Cheia</string>
+    <string-array name="DataConsultaString">
+        <item>12/09/2021</item>
+        <item>06/09/2021</item>
+        <item>08/09/2021</item>
+    </string-array>
+    <string name="title_activity_main__menu">Main_Menu</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>
